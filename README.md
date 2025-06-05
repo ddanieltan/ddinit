@@ -13,4 +13,3 @@ To uninstall
 ```
 uv tool uninstall ddinit
 ```
-
