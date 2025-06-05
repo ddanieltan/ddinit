@@ -22,6 +22,8 @@ def main():
             f.write("layout uv")
         subprocess.run(["direnv", "allow"])
 
+    # TODO create an optional argument that cleans a repo of existing venv and envrc
+
 
 if __name__ == "__main__":
     main()
