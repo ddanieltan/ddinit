@@ -6,7 +6,6 @@ import click
 
 @click.command()
 def main():
-    """Prints a greeting."""
     cwd = os.getcwd()
     click.echo(f"Running {click.style('ddinit', fg='yellow')} in {cwd}")
 
