@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-your-cli = "ddinit.cli:main" # Defines your CLI entry point
+ddinit = "ddinit.cli:main" # Defines your CLI entry point
 
 [project.urls]
 Homepage = "https://github.com/ddanieltan/ddinit"
